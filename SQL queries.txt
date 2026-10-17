@@ -1,0 +1,84 @@
+Level 1: Dataset Exploration
+Total number of customers.
+Number of unique occupations.
+Number of unique nationalities.
+Minimum and maximum age.
+Average age.
+Earliest and latest Joined_Bank date.
+
+Level 2: Customer Demographics
+Customer count by nationality.
+Customer count by occupation.
+Customer count by loyalty classification.
+Customer count by fee structure.
+Average age by occupation.
+Average age by nationality.
+Top 10 occupations by customer count.
+
+Level 3: Income Analysis
+Average estimated income.
+Highest-income customer.
+Lowest-income customer.
+Average income by occupation.
+Average income by nationality.
+Average income by loyalty classification.
+Top 10 customers by income.
+
+Level 4: Deposit Analysis
+Total bank deposits.
+Average bank deposits.
+Deposits by nationality.
+Deposits by occupation.
+Deposits by loyalty classification.
+Top 10 customers by deposits.
+Occupations with deposits above the overall average.
+
+Level 5: Loan Analysis
+Total bank loans.
+Average bank loans.
+Loans by nationality.
+Loans by occupation.
+Loans by loyalty classification.
+Top 10 customers by loans.
+Customers whose loans exceed the average loan amount.
+
+Level 6: Credit & Savings Analysis
+Average credit card balance by occupation.
+Top 10 customers by credit card balance.
+Total savings account balance.
+Savings by nationality.
+Customers whose savings exceed deposits.
+Customers whose credit card balance exceeds savings.
+
+Level 7: Risk & Loyalty Analysis
+Customer count by risk weighting.
+Average loan amount by risk weighting.
+Average deposit amount by risk weighting.
+Risk category with highest total loan exposure.
+Average income by risk weighting.
+Loyalty classification contributing highest deposits.
+Loyalty classification with highest average income.
+
+Level 8: Intermediate SQL (Important for Interviews)
+Customers earning above average income. (Subquery)
+Customers with deposits above average deposits. (Subquery)
+Customers with loans below average loans. (Subquery)
+Occupations with more than 50 customers. (HAVING)
+Nationalities with deposits above overall average deposits. (HAVING)
+Rank customers by income. (RANK())
+Rank customers by deposits. (RANK())
+Top 3 earners within each occupation. (PARTITION BY)
+Top depositor from each nationality. (ROW_NUMBER())
+Occupations where average loans exceed average deposits.
+
+Level 9: Portfolio-Worthy Business Queries
+Deposit-to-loan ratio for every customer.
+Average deposit-to-loan ratio by occupation.
+Average deposit-to-loan ratio by nationality.
+Customers with zero loans but high deposits.
+High-income customers with low loyalty classification.
+Top 20 most valuable customers (income + deposits + savings).
+Customers owning the highest number of properties.
+Relationship between risk weighting and average loan amount.
+Occupations generating the highest combined deposits and savings.
+Nationalities generating the highest overall banking value.
